@@ -1,0 +1,171 @@
+/* dong nay giup reset lai margin va padding, dua ve trang thai 0, defaut la 
+moi the div hoac p se co margin va padding tu dong cua browser
+
+*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*-------*/
+#content {
+    margin: auto;
+    width: 1000px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#gird1 {
+    width: 700px;
+    float: left;
+}
+#gird2{
+    width: 300px;
+    float: right;
+}
+#gird4{
+    width: 700px;
+}
+#gird5{
+    padding-top: 20px;
+    width: 700px;
+    float: left;
+}
+.gird2a{
+    width: 300px;
+    float: right;
+}
+#gird6{
+    margin-top:280px;
+    width: 700px;
+}
+#gird7 {
+    margin-top:20px;
+    width:700px;
+}
+#gird3 img{
+    width: 690px;
+    height:100px;
+    margin:5px 0 5px 5px;
+}
+#gird2 img{
+    width:300px;
+    height:620px;
+ 
+}
+.gird_left {
+    display: inline-block;
+    width:345px;
+}
+.gird_left h5{
+    font-size: 15px;
+}
+.gird_left .gird_content {
+    display: inline-block;
+    width: 100%
+}
+.gird_left .gird_content img {
+    float: left;
+    margin-right: 10px;
+    width: 120px;
+    height: 90px;
+}
+.gird_left .img {
+    width: 300px;
+    height: 210px;
+    padding: 0px 20px 25px 5px;
+}
+.gird_left .gird_desc {
+    font-size: 14px;
+}
+.gird_left .gird_desc span {
+    font-size: 12px;
+    padding-left: 14px;
+    /* icon tam thoi muon cua trang 24, */
+    background: url(https://cdn.24h.com.vn/images/sprites092018.png) no-repeat -50px -1774px
+}
+.gird_list {
+    display: inline-block;
+    width: 100%;
+    margin-top: 2px;
+}
+.gird_list ul {
+    background-color: #eaf8d2
+}
+.gird_list ul li {
+    font-size: 12px;
+    display: block;
+    padding-left: 15px;
+    background: url(https://cdn.24h.com.vn/images/sprites092018.png) no-repeat -46px -253px
+}
+/* xem thuoc tinh ntc child o day:; https://www.w3schools.com/cssref/sel_nth-child.asp */
+.gird_list ul:last-child {
+    background-color: #d5ecab
+}
+.gird_list ul:last-child li {
+    font-weight: bold;
+}
+
+.gird2b .gird_left1 h5{
+    font-size: 15px;
+}
+.gird2b .gird_left1 .gird_content1 {
+    display: inline-block;
+    width: 100%
+}
+#gird2 .gird_left1 .gird_content1 img {
+    float: left; 
+    margin-right: 10px;
+    width: 120px;
+    height: 90px;
+}
+
+#gird2  .gird_left1 .gird_desc1 {
+    font-size:  10px;
+}
+#gird2  .gird_left1 .gird_desc1 {
+    font-size: 14px;
+}
+#gird2  .gird_left1 .gird_desc1 span {
+    font-size: 12px;
+    padding-left: 14px;
+    /* icon tam thoi muon cua trang 24, */
+    background: url(https://cdn.24h.com.vn/images/sprites092018.png) no-repeat -50px -1774px
+}
+#gird2  .gird_list1 {
+    display: inline-block;
+    width: 100%;
+    margin-top: 2px;
+}
+#gird2  .gird_list1 ul {
+    background-color: #eaf8d2
+}
+#gird2  .gird_list1 ul li {
+    font-size: 12px;
+    display: block;
+    padding-left: 15px;
+    background: url(https://cdn.24h.com.vn/images/sprites092018.png) no-repeat -46px -253px
+}
+#gird2 .gird2c {
+    margin-top: 70px;
+    display: block;
+}
+
+.gird_left7{
+    width: 430px;
+    float: left;
+}
+.gird_video {
+    width: 240px;
+    height: 250px;
+    float: right;
+    margin-right:10px;
+    margin-left: 10px;
+    border: 1px solid red ;
+    overflow: scroll;
+
+}
+.gird_video .gird_inside iframe{
+    float: left; 
+}
+.gird_video .gird_inside a{
+    float: right; 
+}

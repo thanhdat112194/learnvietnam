@@ -1,0 +1,61 @@
+/* dong nay giup reset lai margin va padding, dua ve trang thai 0, defaut la 
+moi the div hoac p se co margin va padding tu dong cua browser
+
+*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*-------*/
+#girds {
+    width: 800px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.gird_left {
+    display: inline-block;
+    width:400px;
+}
+.gird_left h5{
+    font-size: 15px;
+}
+.gird_left .gird_content {
+    display: inline-block;
+    width: 100%
+}
+.gird_left .gird_content img {
+    float: left;
+    margin-right: 10px;
+    width: 120px;
+    height: 90px;
+}
+.gird_left .gird_desc {
+    font-size: 14px;
+}
+.gird_left .gird_desc span {
+    font-size: 12px;
+    padding-left: 14px;
+    /* icon tam thoi muon cua trang 24, */
+    background: url(https://cdn.24h.com.vn/images/sprites092018.png) no-repeat -50px -1774px
+}
+.gird_list {
+    display: inline-block;
+    width: 100%;
+    margin-top: 2px;
+}
+.gird_list ul {
+    background-color: #eaf8d2
+}
+.gird_list ul li {
+    font-size: 12px;
+    display: block;
+    padding-left: 15px;
+    background: url(https://cdn.24h.com.vn/images/sprites092018.png) no-repeat -46px -253px
+}
+/* xem thuoc tinh ntc child o day:; https://www.w3schools.com/cssref/sel_nth-child.asp */
+.gird_list ul:last-child {
+    background-color: #d5ecab
+}
+.gird_list ul:last-child li {
+    font-weight: bold;
+}
