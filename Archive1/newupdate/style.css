@@ -13,20 +13,20 @@ moi the div hoac p se co margin va padding tu dong cua browser
     width: 1000px;
     font-family: Arial, Helvetica, sans-serif;
 }
+#sumgird {
+    width:700px;
+    float: left;
+}
 #gird1 {
-    width: 700px;
+ 
     float: left;
 }
 #gird2{
     width: 300px;
     float: right;
 }
-#gird4{
-    width: 700px;
-}
 #gird5{
     padding-top: 20px;
-    width: 700px;
     float: left;
 }
 .gird2a{
@@ -35,11 +35,9 @@ moi the div hoac p se co margin va padding tu dong cua browser
 }
 #gird6{
     margin-top:280px;
-    width: 700px;
 }
 #gird7 {
     margin-top:20px;
-    width:700px;
 }
 #gird3 img{
     width: 690px;
