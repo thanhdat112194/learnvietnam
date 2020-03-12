@@ -8,17 +8,60 @@ moi the div hoac p se co margin va padding tu dong cua browser
 }
 
 /*-------*/
+#headermenu {
+    width:1000px;
+    margin: auto;
+    background-color: rgb(157, 202, 112);
+    
+}
+.head2 img {
+    width:90%;
+    padding-top: 5px;
+}
+.b{
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+.head1 img{
+    padding-top: 5px;
+    width:20px;
+    height: 20px;
+}
+.head3   a img {
+    width:50px;
+    height: 50px;
+    float: right;
+    padding-left:52px;
+}
+#headermenu ul li a {
+    text-align: center;
+    padding:10px 5px 5px 5px;
+    font-size: 11px;
+}
+#headermenu ul {
+    display: flex;
+}
+#headermenu ul li {
+    display: inline;
+    font-size:14px;
+    color: white;
+    text-align: center;
+}
+#headermenu ul li a {
+    text-decoration: none;
+    color: white;
+}
 #content {
     margin: auto;
     width: 1000px;
     font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
 }
 #sumgird {
     width:700px;
     float: left;
 }
 #gird1 {
- 
     float: left;
 }
 #gird2{
