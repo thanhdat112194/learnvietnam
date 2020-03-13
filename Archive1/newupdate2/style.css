@@ -16,16 +16,20 @@ moi the div hoac p se co margin va padding tu dong cua browser
 }
 .head2 img {
     width:90%;
-    padding-top: 5px;
+    padding: 5px;
 }
 .b{
     border-left: 1px solid white;
     border-right: 1px solid white;
+    padding: 5px;
 }
-.head1 img{
+.head1{
     padding-top: 5px;
-    width:20px;
+    width:30px;
     height: 20px;
+}
+.b span{
+    font-size: 10px;
 }
 .head3   a img {
     width:50px;

@@ -94,11 +94,11 @@
     padding-left: 10px;
     height: 100px;
 }
-.girdL_content1 a{
+.girdL_content1 h1 a{
     text-decoration: none;
     color:white;
 }
-.girdL_content1 a h1:hover{
+.girdL_content1 h1:hover a {
     font-size:220%;
 }
 .girdL_content2 {
