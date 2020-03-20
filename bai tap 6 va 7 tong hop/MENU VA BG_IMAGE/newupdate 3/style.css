@@ -7,53 +7,137 @@ moi the div hoac p se co margin va padding tu dong cua browser
     padding: 0;
 }
 
+/*-------*/
 #headermenu {
     width:1000px;
     margin: auto;
     background-color: rgb(157, 202, 112);
-    float: left;
+    height: 50px;
 }
+#headermenu ul  {
+    display: inline-block;
+}
+.head {
+    text-align: center;
+    margin:5px;
+    padding:5px;
+}
+.head_1 {
+    text-align: center;
+    padding:10px;
+    border-right:1px solid white;
+    border-left:1px solid white;
+}
+.head span{
+    text-align: center;
+}
+
+.image {
+    width:80%;
+    padding:5px;
+}
+#headermenu ul li span {
+    display:block;
+}
+.head_1 img {
+    width: 15px;
+}
+.head_2 img{
+    width:40px;
+    float:right;
+
+}
+.head img {
+    text-align: center;
+    width: 15px;
+}
+/* .head  a span {
+    font-size: 10px;
+    text-align: center;
+} */
+.head_a img {
+    width: 15px;
+}
+.head_a {
+    padding: 10px;
+}
+
 #headermenu ul {
     display: flex;
 }
-.head1 img{
-    width:20px;
+#headermenu ul li {
+    list-style: none;
+    font-size: 10px;    
+    text-align: center;
+
 }
-.head1 span {
-    font-size: 20px;
+#headermenu ul li a {
+    text-decoration: none;
 }
+#headermenu ul.menu_sub {
+    display: none;
+}
+#headermenu .menu_sub li{
+    display: block;
+    text-align: left;
+    background-color: rgb(157, 202, 112);
+    border-bottom: 2px solid white;
+}
+#headermenu ul ul .head_1 {
+    position: relative;
+    width:60px;
+    height: 100px;
+}
+#headermenu ul ul .head_1:hover   ul.menu_sub {
+        display: block;
+		position: absolute;
+        top:50px;
+        left:-80px;
+}
+#headermenu ul.menu_sub_inside{
+    display:none;
+}
+#headermenu .menu_sub_inside li{
+    display: block;
+    text-align: left;
+    background-color: rgb(81, 240, 33);
+    border-bottom: 2px solid white;
+}
+#headermenu ul ul .head_2 {
+    position: relative;
+}
+#headermenu ul ul .menu_sub .head_2:hover ul.menu_sub_inside{
+    display: block;
+    position: absolute;
+    top:0px;
+    left:102px;
+    width:100px;
+}
+
 /* #headermenu {
     width:1000px;
     margin: auto;
     background-color: rgb(157, 202, 112);
-   */
+    
 }
-/* .head2 img {
-    padding:5px;
-} */
-/* .c{
+.head2 img {
+    width:90%;
+    padding-top: 5px;
+}
+.b{
     border-left: 1px solid white;
     border-right: 1px solid white;
-    padding: 5px;
-} */
-/* .b {
-    padding: 5px; */
-    /* float: left;
 }
-.head1{
+.head1 img{
     padding-top: 5px;
-    width:32px;
+    width:20px;
     height: 20px;
-    text-align: center;
 }
-
-.b span{
-    font-size: px;
-    text-align: center;
-}
-.head3  {
-    width:40px;
-    height: 40px;
+.head3   a img {
+    width:50px;
+    height: 50px;
+    float: right;
+    padding-left:52px;
 }
 #headermenu ul li a {
     text-align: center;
@@ -71,11 +155,13 @@ moi the div hoac p se co margin va padding tu dong cua browser
 }
 #headermenu ul li a {
     text-decoration: none;
-    color: white; */
-}
+    color: white;
+} */
 #content {
     margin: auto;
+    width: 1000px;
     font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
 }
 #sumgird {
     width:700px;
@@ -85,8 +171,8 @@ moi the div hoac p se co margin va padding tu dong cua browser
     float: left;
 }
 #gird2{
-    width:10px;
-    float:right;
+    width: 300px;
+    float: right;
 }
 #gird5{
     padding-top: 20px;
@@ -165,8 +251,11 @@ moi the div hoac p se co margin va padding tu dong cua browser
     font-weight: bold;
 }
 
-.gird2b .gird_left1 h5{
+.gird2b .gird_left1 .head_left1a{
     font-size: 15px;
+    color: rgb(81, 240, 33);
+    margin-bottom: 10px;
+    border-bottom: 2px solid ;
 }
 .gird2b .gird_left1 .gird_content1 {
     display: inline-block;
@@ -179,37 +268,54 @@ moi the div hoac p se co margin va padding tu dong cua browser
     height: 90px;
 }
 
-#gird2  .gird_left1 .gird_desc1 {
-    font-size:  10px;
-}
+
 #gird2  .gird_left1 .gird_desc1 {
     font-size: 14px;
 }
 #gird2  .gird_left1 .gird_desc1 span {
     font-size: 12px;
     padding-left: 14px;
-    /* icon tam thoi muon cua trang 24, */
-    background: url(https://cdn.24h.com.vn/images/sprites092018.png) no-repeat -50px -1774px
+    color: white;
 }
+    /* icon tam thoi muon cua trang 24, */
+    /* background: RED url(https://cdn.24h.com.vn/images/sprites092018.png) no-repeat -5px -1774px
+} */
 #gird2  .gird_list1 {
     display: inline-block;
     width: 100%;
     margin-top: 2px;
 }
-#gird2  .gird_list1 ul {
-    background-color: #eaf8d2
-}
 #gird2  .gird_list1 ul li {
     font-size: 12px;
     display: block;
     padding-left: 15px;
-    background: url(https://cdn.24h.com.vn/images/sprites092018.png) no-repeat -46px -253px
+}
+.BG_1{
+    background:url(./anh/4.jpg) no-repeat left 4px;
+    background-size: 10px;
+}
+.BG_1a{
+    background:url(./anh/2.jpg) no-repeat left 4px;
+    background-size: 10px;
+}
+.BG_2{
+    background: RED url(./anh/5.jpg) no-repeat left 4px;
+    background-size: 10px;
+}
+.BG_3{
+    background: url(./anh/6.jpg) no-repeat 150px 16px;
+    background-size: 8px;
 }
 #gird2 .gird2c {
     margin-top: 70px;
     display: block;
 }
-
+.head_left1{
+    font-size: 15px;
+    color: rgb(255, 70, 110);
+    margin-bottom: 10px;
+    border-bottom: 2px solid ;
+}
 .gird_left7{
     width: 430px;
     float: left;

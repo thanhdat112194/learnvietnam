@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	
+
+
+	<style type="text/css">
+		* {
+			margin: 0;
+			padding: 0;
+		}
+
+		ul {
+			background: green;
+			/*height: 50px;*/
+			width: 100%;
+			display: inline-block;
+			text-align: center;
+		}
+		ul li{
+			display: inline-block;
+			position: relative;
+		}
+		ul li a {
+			color: #fff;
+			text-decoration: none;
+		}
+		.menu-sub {
+			display: none;
+			background:red;
+		
+		}
+		ul li:hover ul.menu-sub {
+			display: block;
+			position: absolute;
+			top: 50px;
+			left:0
+
+		}
+
+		ul.menu-sub li {
+			display: block;
+		    text-align: left;
+		    border-bottom: 1px solid #fff;
+		    padding-left: 20px;
+		    margin: 10px 0;
+
+		    background: url(https://kenh14cdn.com/thumb_w/640/2019/2/24/3561716420480213454575853861059020806684672n-15510057259571546306615-crop-15510061168661940761135.jpg) no-repeat 20px center;
+		    background-size: 20px;
+		}
+	</style>
+</head>
+<body>
+	
+	<ul class="menu">
+		<li>
+			<a href=""> bong da1</a>
+			<ul class="menu-sub">
+				<li><a href=""> bong da11</a></li>
+				<li><a href=""> bong da21</a></li>
+				<li><a href=""> bong da31</a></li>
+				<li><a href=""> bong da41</a></li>
+			</ul>
+		</li>
+
+		<li>
+			<a href=""> bong da2</a>
+			<ul class="menu-sub">
+				<li><a href=""> bong da11</a></li>
+				<li><a href=""> bong da21</a></li>
+				<li><a href=""> bong da31</a></li>
+				<li><a href=""> bong da41</a></li>
+			</ul>
+		</li>
+
+		<li><a href=""> bong da3</a></li>
+		<li><a href=""> bong da4</a></li>
+	</ul>
+
+	
+</body>
+</html>
